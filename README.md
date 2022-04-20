@@ -16,7 +16,7 @@ git clone https://github.com/aravind295/SCREENING_TEST_R0130746.git
 Step2: Go to the the folder screening_test
 Step3: Run
 ```
-git clone https://github.com/aravind295/SCREENING_TEST_R0130746.git
+npm install
 ```
 
 ## Development server
