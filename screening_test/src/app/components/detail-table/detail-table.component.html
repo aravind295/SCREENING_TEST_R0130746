@@ -1,0 +1,39 @@
+<mat-list role="list">
+    <mat-list-item role="listitem">
+        <label>Name</label>
+        <span>{{countryData[0].name}}</span>
+    </mat-list-item>
+
+    <mat-list-item role="listitem">
+        <label>Capital</label>
+        <span>            
+            <ng-container *ngFor="let item of countryData[0].capital">
+                {{item}},
+            </ng-container>
+        </span>
+    </mat-list-item>
+
+    <mat-list-item role="listitem">
+        <label>Population</label>
+        <span>{{countryData[0].population}}</span>
+    </mat-list-item>
+
+    <mat-list-item role="listitem">
+        <label>Currencies</label>
+        <span>
+            <ng-container *ngFor="let key of Object.keys(countryData[0].currencies)">
+                <div class="outer">
+                    <span class="inner">{{countryData[0].currencies[key].name}}</span>
+                    <span class="inner">{{countryData[0].currencies[key].symbol}}</span>
+                </div>
+            </ng-container>
+        </span>
+    </mat-list-item>
+
+    <mat-list-item role="listitem">
+        <label>Flag</label>
+        <span>
+            <img [src]="countryData[0].flag.png" />
+        </span>
+    </mat-list-item>
+</mat-list>

@@ -1,0 +1,10 @@
+<mat-form-field appearance="fill" >
+  <mat-label>{{labelName}}</mat-label>
+  <mat-select 
+    required
+    [disabled]="isDisabled" 
+    [formControl]="listControl"             
+    (selectionChange)="onchangedorpdown($event)">
+    <mat-option value="{{item.code}}" *ngFor="let item of list">{{item.name}}</mat-option>
+  </mat-select>
+</mat-form-field>
