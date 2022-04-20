@@ -42,7 +42,6 @@ export class AppComponent {
 
   getCountryValue(value:any){
     this.singleCountyList = this.countryData.filter(data => data.code == value);
-    console.log(this.singleCountyList);
   }
 
 }
