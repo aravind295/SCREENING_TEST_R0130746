@@ -16,6 +16,7 @@ Use the following command to clone the repo
 git clone https://github.com/aravind295/SCREENING_TEST_R0130746.git
 ```
 Step2: Go to the the folder screening_test
+
 Step3: Run
 ```
 npm install
