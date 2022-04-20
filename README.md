@@ -3,7 +3,9 @@
 This is a test project to demonstrate using Intern with Angular, Typescript Observables and NGRX. which uses  https://restcountries.com/v3.1/region/ API for fetching the details of regions and different countires based on region.
 
 Step 1: User will be able to select a region Asia or Europe from the first dropdown.
+
 Step 2: User will be able to select the country from the second dropdown which is populated based on selected region.
+
 Step 3: User will be able to view the country details based on the country selected.
 
 ## Setup Environment 
